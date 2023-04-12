@@ -2,5 +2,15 @@
     "require": {
         "monolog/monolog": "3.0.0",
         "justinrainbow/json-schema": "5.2.10"
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/*"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:josefglatz/instagram.git"
+        }
+    ]
 }
